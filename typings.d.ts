@@ -57,6 +57,7 @@ interface Hourly {
   temperature_2m: [number];
   time: [string];
   wind_gusts_10m: [number];
+  uv_index: [number];
 }
 
 interface HourlyUnits {
@@ -72,6 +73,7 @@ interface HourlyUnits {
   temperature_2m: string;
   time: string;
   wind_gusts_10m: string;
+  uv_index: string;
 }
 
 interface Root {
